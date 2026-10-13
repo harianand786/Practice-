@@ -12,3 +12,16 @@ print ( " employeeCount  = " "${employeeCount}" );
 
 // part B
 
+void main() {
+  for (int i = 1; i <= 10 ; i++) {
+    print (i);
+  }
+}
+
+void main() {
+  for(int i=1; i<=3; i++) {
+    for(int j=1; j<=3; j++) {
+      print ( "$i,$j");
+    }
+  }
+}
